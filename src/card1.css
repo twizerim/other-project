@@ -1,0 +1,102 @@
+.card-container{
+    background-color: rgb(7, 18, 59);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    z-index: 9999;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+   
+}
+.inter-card{
+    width: 75%;
+}
+.heard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p ,h1{
+    color: #fff;
+}
+h1{
+    font-size: 1.4rem;
+}
+li{
+    list-style: none;
+    display: flex;
+}
+.seach{
+    background-color: rgb(21, 55, 82);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+}
+button{
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.content-card{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(21, 55, 82);
+    padding: 0rem 1.2rem;
+    margin-top: 1.6rem;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+}
+.firstdiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.octos{
+    font-size: 1.5rem;
+}
+span{
+    color: #fff;
+}
+img{
+    padding-top: 1.2rem;
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+}
+.rigth{
+    color: #fff;
+    padding-top: 1.3rem;
+}
+.content{
+    width: 100%;
+}
+.number{
+    background-color: rgb(7, 18, 59);
+    padding: 0.2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+li{
+    list-style: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.2rem;
+}
+.top,.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+}
