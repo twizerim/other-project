@@ -1,0 +1,25 @@
+[
+    {
+        "id":"1",
+        "names":"Muhire kevin",
+        "date":"25 jan 2011",
+        "content":"this profile has no bio",
+        "repos":"8",
+        "fllower":"34",
+        "fllowing":"678",
+        "githubUrl":"https://github.blog",
+        "location":"san Fransisco"
+    },
+    {
+        "id":"2",
+        "names":"Twizerimana Ejide",
+        "date":"27 jan 2018",
+        "content":"The profile of my github is public to any one who want to access it",
+        "repos":"10",
+        "fllower":"89",
+        "fllowing":"1000",
+        "githubUrl":"https://github.information",
+        "location":"Kigali Rwanda"
+
+    }
+]

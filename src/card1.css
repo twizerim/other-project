@@ -6,14 +6,16 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    z-index: 9999;
+    z-index: 99999;
     position: absolute;
     top: 30%;
-    left: 25%;
-   
+    left: 25%; 
+}
+.card-container:hover{
+    transform: translate(4px,-4px);
 }
 .inter-card{
-    width: 75%;
+    width: 60%;
 }
 .heard{
     display: flex;
@@ -26,16 +28,39 @@ p ,h1{
 h1{
     font-size: 1.4rem;
 }
+.heard h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 li{
     list-style: none;
     display: flex;
 }
-.seach{
-    background-color: rgb(21, 55, 82);
+.search{
+    background-color: rgba(16, 76, 121, 0.836);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    /* background-color: red; */
     padding: 0.3rem 1rem;
     border-radius: 0.5rem;
+}
+.search label input{
+    background-color: rgba(16, 76, 121, 0.836);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.search label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
 }
 button{
     padding: 0rem 1rem;
@@ -48,7 +73,7 @@ button{
 .content-card{
     display: flex;
     gap: 2rem;
-    background-color: rgb(21, 55, 82);
+    background-color: rgba(16, 76, 121, 0.836);
     padding: 0rem 1.2rem;
     margin-top: 1.6rem;
     border-radius: 0.5rem;
@@ -67,10 +92,9 @@ span{
     color: #fff;
 }
 img{
-    padding-top: 1.2rem;
     border-radius: 50%;
     width: 60px;
-    height: 70px;
+    height: 60px;
 }
 .rigth{
     color: #fff;
@@ -79,7 +103,7 @@ img{
 .content{
     width: 100%;
 }
-.number{
+.number{ 
     background-color: rgb(7, 18, 59);
     padding: 0.2rem 1rem;
     display: flex;
